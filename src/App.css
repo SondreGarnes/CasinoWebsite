@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.title {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  font-size: 1.5em;
+  color: palevioletred;
 }

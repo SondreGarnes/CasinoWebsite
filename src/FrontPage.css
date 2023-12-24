@@ -1,0 +1,52 @@
+
+body{
+    background-image:'./frontpagebackground.jpg';
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 5em;
+    text-align: center;
+    color: palevioletred;
+    font: bold;
+}
+.Bio{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(112, 112, 216);
+}
+
+    .Button{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+    }
+    
+  
+  .Play {
+    margin: 10px;
+    font-size: 2em;
+    transition: background-color 0.7s ease;
+    background-color: #28a745;
+    align-content: center;
+    border: 3px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+  }
+  .Play:hover{
+    background-color: rgb(17, 130, 230);
+    color: rgb(255, 255, 255);
+  }
+  
